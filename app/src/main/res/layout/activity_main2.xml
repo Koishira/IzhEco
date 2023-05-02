@@ -7,14 +7,14 @@
 
     <Button
         android:id="@+id/button1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="Назад"
-        android:textAllCaps="true"
+        android:text="ABCD"
+        android:textColor="@color/black"
         android:textSize="64dp"
-    />
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

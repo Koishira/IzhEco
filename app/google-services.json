@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "815606168155",
+    "project_id": "izheco-65b1b",
+    "storage_bucket": "izheco-65b1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815606168155:android:7ae134c776ec3bb5639d7e",
+        "android_client_info": {
+          "package_name": "com.example.izheco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815606168155-kuup9u83hro9n296o4iadqj65jt1u7lg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5371BiL58q3rM1-xa-7an7JKHEUWv5uQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815606168155-kuup9u83hro9n296o4iadqj65jt1u7lg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

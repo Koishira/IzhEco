@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">IzhEco</string>
+
+    <string name="Category">Книги</string>
+
+    <string-array name="Categories">
+        <item>Книги</item>
+        <item>Одежда</item>
+        <item>Игрушки</item>
+        <item>Электроника</item>
+        <item>Шины</item>
+        <item>Название</item>
+        <item>Название</item>
+        <item>Название</item>
+        <item>Название</item>
+        <item>Название</item>
+        <item>Название</item>
+        <item>Название</item>
+        <item>Название</item>
+        <item>Название</item>
+    </string-array>
+
+    <string-array name="Книги">
+        <item>Пункт</item>
+        <item>Пункт</item>
+        <item>Пункт</item>
+        <item>Пункт</item>
+        <item>Пункт</item>
+    </string-array>
+
+    <array name="Пункт">
+        <number>89508224911</number>
+        <adress>ул. Молодежная 57-5</adress>
+        <link>vk.com/sdjfnjksfj</link>
+    </array>
 </resources>

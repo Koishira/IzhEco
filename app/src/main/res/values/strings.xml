@@ -5,19 +5,9 @@
 
     <string-array name="Categories">
         <item>Книги</item>
-        <item>Одежда</item>
+        <item>"Электроника"</item>
         <item>Игрушки</item>
-        <item>Электроника</item>
-        <item>Шины</item>
-        <item>Название</item>
-        <item>Название</item>
-        <item>Название</item>
-        <item>Название</item>
-        <item>Название</item>
-        <item>Название</item>
-        <item>Название</item>
-        <item>Название</item>
-        <item>Название</item>
+        <item>Одежда</item>
     </string-array>
 
     <string-array name="Книги">

@@ -36,7 +36,7 @@
             </androidx.cardview.widget.CardView>
             <TextView
                 android:id="@+id/category_name"
-                android:layout_width="wrap_content"
+                android:layout_width="190dp"
                 android:layout_height="wrap_content"
                 app:layout_constraintStart_toEndOf="@id/logo"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +46,8 @@
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:layout_gravity="center" />
+                android:layout_gravity="center"
+                android:gravity="center"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>

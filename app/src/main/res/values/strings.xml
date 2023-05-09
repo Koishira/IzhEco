@@ -4,10 +4,20 @@
     <string name="Category">Книги</string>
 
     <string-array name="Categories">
-        <item>Книги</item>
-        <item>"Электроника"</item>
+        <item>Ветошь</item>
+        <item>Вторсырье</item>
         <item>Игрушки</item>
+        <item>Книги</item>
+        <item>Крышечки</item>
+        <item>Мебель</item>
+        <item>Обувь</item>
         <item>Одежда</item>
+        <item>Органика</item>
+        <item>Рукоделие и творчество</item>
+        <item>Строительные материалы</item>
+        <item>Сувениры, бижутерия, сумки</item>
+        <item>Экотакси</item>
+        <item>Электроника и техника</item>
     </string-array>
 
     <string-array name="Книги">
@@ -17,10 +27,7 @@
         <item>Пункт</item>
         <item>Пункт</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <array name="Пункт">
-        <number>89508224911</number>
-        <adress>ул. Молодежная 57-5</adress>
-        <link>vk.com/sdjfnjksfj</link>
-    </array>
 </resources>

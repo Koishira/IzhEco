@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Категории"
+        android:icon="@drawable/options_lines"
+        android:id="@+id/category"
+        />
+    <item
+        android:title="Избранное"
+        android:icon="@drawable/heart"
+        android:id="@+id/favourites"/>
+    <item
+        android:title="О приложении"
+        android:icon="@drawable/information"
+        android:id="@+id/info"/>
+</menu>

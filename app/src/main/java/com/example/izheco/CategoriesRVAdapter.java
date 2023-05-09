@@ -16,18 +16,20 @@ public class CategoriesRVAdapter extends RecyclerView.Adapter<CategoriesRVAdapte
 
     Context context;
     ArrayList <Category> Categories;
+    private final RVInterface rvInterface;
 
-    public CategoriesRVAdapter(Context context, ArrayList <Category> Categories) {
+    public CategoriesRVAdapter(Context context, ArrayList <Category> Categories, RVInterface rvInterface) {
         this.context = context;
         this.Categories = Categories;
+        this.rvInterface = rvInterface;
     }
 
     @NonNull
     @Override
     public CategoriesRVAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
-        View view = inflater.inflate(R.layout.tab, parent, false);
-        return new CategoriesRVAdapter.MyViewHolder(view);
+        View view = inflater.inflate(R.layout.tab_opened, parent, false);
+        return new CategoriesRVAdapter.MyViewHolder(view, rvInterface);
     }
 
     @Override
@@ -46,11 +48,23 @@ public class CategoriesRVAdapter extends RecyclerView.Adapter<CategoriesRVAdapte
         ImageView imageView;
         TextView categoriesNames;
 
-        public MyViewHolder(@NonNull View itemView) {
+        public MyViewHolder(@NonNull View itemView, RVInterface rvInterface) {
             super(itemView);
 
             imageView = itemView.findViewById(R.id.logo);
             categoriesNames = itemView.findViewById(R.id.category_name);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (rvInterface != null) {
+                        int pos = getAdapterPosition();
+                        if (pos != RecyclerView.NO_POSITION) {
+                            rvInterface.onItemClick(pos);
+                        }
+                    }
+                }
+            });
         }
     }
 }

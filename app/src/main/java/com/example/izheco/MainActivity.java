@@ -15,8 +15,9 @@ import com.example.izheco.update.AppUpdate;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements RVInterface {
+public class MainActivity extends AppCompatActivity {
 
+    RecyclerView recyclerView;
     ArrayList <Category> categories = new ArrayList<>();
     int[] categoriesImages = {R.drawable.fabric_green, R.drawable.recycle_sign_green, R.drawable.toys_green, R.drawable.book_green,
             R.drawable.bottle_cap_green, R.drawable.armchair_green, R.drawable.boot_green, R.drawable.tshirt_green,
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements RVInterface {
         setContentView(R.layout.activity_main);
         RecyclerView recyclerView = findViewById(R.id.tabs);
         setCategories();
-        CategoriesRVAdapter adapter = new CategoriesRVAdapter(this, categories, this);
+        CategoriesRVAdapter adapter = new CategoriesRVAdapter(this, categories);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
@@ -52,21 +53,7 @@ public class MainActivity extends AppCompatActivity implements RVInterface {
     private void setCategories() {
         String[] categoriesNames = getResources().getStringArray(R.array.Categories);
         for (int i = 0; i < categoriesNames.length; i++) {
-            categories.add(new Category(categoriesNames[i], categoriesImages[i]));
+            categories.add(new Category(categoriesNames[i], categoriesImages[i], tabTypes[i][0], tabTypes[i][1], tabTypes[i][2]));
         }
-    }
-
-    @Override
-    public void onItemClick(int position) {
-        if (tabTypes[position][0] == 1 && tabTypes[position][1] == 1 && tabTypes[position][2] == 1) {
-            Toast.makeText(getApplicationContext(), "1 1 1", Toast.LENGTH_SHORT).show();
-        }
-        if (tabTypes[position][0] == 1 && tabTypes[position][1] == 1 && tabTypes[position][2] == 0) {
-            Toast.makeText(getApplicationContext(), "1 1 0", Toast.LENGTH_SHORT).show();
-        }
-        if (tabTypes[position][0] == 0 && tabTypes[position][1] == 0 && tabTypes[position][2] == 0) {
-            Toast.makeText(getApplicationContext(), "0 0 0", Toast.LENGTH_SHORT).show();
-        }
-//        Toast.makeText(getApplicationContext(), "pizda", Toast.LENGTH_SHORT).show();
     }
 }

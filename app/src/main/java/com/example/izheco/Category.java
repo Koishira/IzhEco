@@ -1,12 +1,40 @@
 package com.example.izheco;
 
 public class Category {
-    String category_name;
-    int image;
+    private String category_name;
+    private int image;
 
-    public Category(String category_name, int image) {
+    private int give, sell, exchange;
+
+    private boolean expanded;
+
+    public Category(String category_name, int image, int give, int sell, int exchange) {
         this.category_name = category_name;
         this.image = image;
+        this.give = give;
+        this.sell = sell;
+        this.exchange = exchange;
+        this.expanded = false;
+    }
+
+    public void setExpanded(boolean expanded) {
+        this.expanded = expanded;
+    }
+
+    public boolean isExpanded() {
+        return expanded;
+    }
+
+    public int getGive() {
+        return give;
+    }
+
+    public int getSell() {
+        return sell;
+    }
+
+    public int getExchange() {
+        return exchange;
     }
 
     public String getCategory_name() {

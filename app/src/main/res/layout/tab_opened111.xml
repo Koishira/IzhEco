@@ -32,7 +32,7 @@
                 android:backgroundTint="@color/almost_white"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="0dp"
-                app:layout_constraintBottom_toTopOf="@id/option1"
+                app:layout_constraintBottom_toTopOf="@id/expander"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -44,7 +44,7 @@
             </androidx.cardview.widget.CardView>
             <TextView
                 android:id="@+id/category_name"
-                android:layout_width="wrap_content"
+                android:layout_width="190dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -52,26 +52,34 @@
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@id/option1"
+                app:layout_constraintBottom_toTopOf="@id/expander"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/pic"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/expander"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/pic"
+                app:layout_constraintBottom_toBottomOf="parent">
             <androidx.cardview.widget.CardView
                 android:id="@+id/option1"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 app:cardCornerRadius="20dp"
                 android:layout_marginTop="5dp"
-                app:layout_constraintTop_toBottomOf="@id/pic"
+                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toTopOf="@id/option2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:cardElevation="0dp"
                 app:cardBackgroundColor="@color/dark_almost_white">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="Отдать"
+                    android:gravity="center"
                     android:layout_gravity="center"
                     android:textColor="@color/black"
                     android:textSize="22sp"
@@ -90,9 +98,10 @@
                 app:cardElevation="0dp"
                 app:cardBackgroundColor="@color/dark_almost_white">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="Продать"
+                    android:gravity="center"
                     android:layout_gravity="center"
                     android:textColor="@color/black"
                     android:textSize="22sp"
@@ -111,14 +120,16 @@
                 app:cardCornerRadius="20dp"
                 app:cardBackgroundColor="@color/dark_almost_white">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="Обменять"
+                    android:gravity="center"
                     android:layout_gravity="center"
                     android:textColor="@color/black"
                     android:textSize="22sp"
                     android:textStyle="bold"/>
             </androidx.cardview.widget.CardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

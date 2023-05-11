@@ -15,7 +15,7 @@ import com.example.izheco.update.AppUpdate;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements RVInterface {
 
     RecyclerView recyclerView;
     ArrayList <Category> categories = new ArrayList<>();
@@ -45,15 +45,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         RecyclerView recyclerView = findViewById(R.id.tabs);
         setCategories();
-        CategoriesRVAdapter adapter = new CategoriesRVAdapter(this, categories);
+        CategoriesRVAdapter adapter = new CategoriesRVAdapter(this, categories, this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
-
     private void setCategories() {
         String[] categoriesNames = getResources().getStringArray(R.array.Categories);
         for (int i = 0; i < categoriesNames.length; i++) {
             categories.add(new Category(categoriesNames[i], categoriesImages[i], tabTypes[i][0], tabTypes[i][1], tabTypes[i][2]));
+        }
+    }
+
+    @Override
+    public void onClick(int position) {
+        if (tabTypes[position][0] == 1 && tabTypes[position][1] == 1 && tabTypes[position][2] == 1) {
+            Toast.makeText(getApplicationContext(), "1 1 1", Toast.LENGTH_SHORT).show();
         }
     }
 }

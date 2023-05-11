@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -16,12 +17,14 @@ import java.util.ArrayList;
 
 public class CategoriesRVAdapter extends RecyclerView.Adapter<CategoriesRVAdapter.MyViewHolder> {
 
+    private final RVInterface rvInterface;
     Context context;
     ArrayList <Category> Categories;
 
-    public CategoriesRVAdapter(Context context, ArrayList <Category> Categories) {
+    public CategoriesRVAdapter(Context context, ArrayList <Category> Categories, RVInterface rvInterface) {
         this.context = context;
         this.Categories = Categories;
+        this.rvInterface = rvInterface;
     }
 
     @NonNull
@@ -29,7 +32,7 @@ public class CategoriesRVAdapter extends RecyclerView.Adapter<CategoriesRVAdapte
     public CategoriesRVAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.tab_opened111, parent, false);
-        return new CategoriesRVAdapter.MyViewHolder(view);
+        return new CategoriesRVAdapter.MyViewHolder(view, rvInterface);
     }
 
     @Override
@@ -52,17 +55,23 @@ public class CategoriesRVAdapter extends RecyclerView.Adapter<CategoriesRVAdapte
         TextView give, sell, exchange;
         ConstraintLayout expandableLayout;
 
-        public MyViewHolder(@NonNull View itemView) {
+        public MyViewHolder(@NonNull View itemView, RVInterface rvInterface) {
             super(itemView);
 
             imageView = itemView.findViewById(R.id.logo);
             categoriesNames = itemView.findViewById(R.id.category_name);
             expandableLayout = itemView.findViewById(R.id.expander);
-            give = itemView.findViewById(R.id.option1);
-            sell = itemView.findViewById(R.id.option2);
-            exchange = itemView.findViewById(R.id.option3);
+//            give = itemView.findViewById(R.id.option1);
+//            sell = itemView.findViewById(R.id.option2);
+//            exchange = itemView.findViewById(R.id.option3);
 
             itemView.setOnClickListener(view -> {
+                if (rvInterface != null) {
+                    int pos = getAdapterPosition();
+                    if (pos !=RecyclerView.NO_POSITION) {
+                        rvInterface.onClick(pos);
+                    }
+                }
                 Category category = Categories.get(getAdapterPosition());
                 category.setExpanded(!category.isExpanded());
                 notifyItemChanged(getAdapterPosition());

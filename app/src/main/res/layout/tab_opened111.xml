@@ -21,7 +21,6 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
             <androidx.cardview.widget.CardView
                 android:id="@+id/pic"
                 android:layout_width="100dp"
@@ -56,7 +55,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/pic"
                 app:layout_constraintTop_toTopOf="parent" />
-
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/expander"
                 android:layout_width="match_parent"

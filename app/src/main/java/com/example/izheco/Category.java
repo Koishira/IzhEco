@@ -1,12 +1,14 @@
 package com.example.izheco;
 
+import androidx.constraintlayout.widget.ConstraintLayout;
+
 public class Category {
     private String category_name;
     private int image;
 
     private int give, sell, exchange;
 
-    private boolean expanded;
+    public boolean expanded;
 
     public Category(String category_name, int image, int give, int sell, int exchange) {
         this.category_name = category_name;

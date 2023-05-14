@@ -1,23 +1,28 @@
 package com.example.izheco;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.izheco.update.AppUpdate;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements RVInterface {
+public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
+    CategoriesRVAdapter adapter;
     ArrayList <Category> categories = new ArrayList<>();
     int[] categoriesImages = {R.drawable.fabric_green, R.drawable.recycle_sign_green, R.drawable.toys_green, R.drawable.book_green,
             R.drawable.bottle_cap_green, R.drawable.armchair_green, R.drawable.boot_green, R.drawable.tshirt_green,
@@ -43,23 +48,17 @@ public class MainActivity extends AppCompatActivity implements RVInterface {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        RecyclerView recyclerView = findViewById(R.id.tabs);
+        recyclerView = findViewById(R.id.tabs);
         setCategories();
-        CategoriesRVAdapter adapter = new CategoriesRVAdapter(this, categories, this);
+        CategoriesRVAdapter adapter = new CategoriesRVAdapter(categories, this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
+
     private void setCategories() {
         String[] categoriesNames = getResources().getStringArray(R.array.Categories);
         for (int i = 0; i < categoriesNames.length; i++) {
             categories.add(new Category(categoriesNames[i], categoriesImages[i], tabTypes[i][0], tabTypes[i][1], tabTypes[i][2]));
-        }
-    }
-
-    @Override
-    public void onClick(int position) {
-        if (tabTypes[position][0] == 1 && tabTypes[position][1] == 1 && tabTypes[position][2] == 1) {
-            Toast.makeText(getApplicationContext(), "1 1 1", Toast.LENGTH_SHORT).show();
         }
     }
 }

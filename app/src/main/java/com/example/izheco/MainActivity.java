@@ -19,10 +19,9 @@ import com.example.izheco.update.AppUpdate;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     RecyclerView recyclerView;
-    CategoriesRVAdapter adapter;
     ArrayList <Category> categories = new ArrayList<>();
     int[] categoriesImages = {R.drawable.fabric_green, R.drawable.recycle_sign_green, R.drawable.toys_green, R.drawable.book_green,
             R.drawable.bottle_cap_green, R.drawable.armchair_green, R.drawable.boot_green, R.drawable.tshirt_green,
@@ -45,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             {1, 1, 0}//Электроника и техника
     };
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         recyclerView = findViewById(R.id.tabs);
@@ -53,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         CategoriesRVAdapter adapter = new CategoriesRVAdapter(categories, this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
     }
 
     private void setCategories() {

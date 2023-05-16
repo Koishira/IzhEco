@@ -2,7 +2,6 @@ package com.example.izheco;
 
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,6 +23,18 @@ public class CategoriesRVAdapter extends RecyclerView.Adapter<CategoriesRVAdapte
     private ArrayList<Category> categories;
     private Context context;
     private static int currentPosition = 8;
+    int[] categoriesImages = {R.drawable.fabric_green, R.drawable.recycle_sign_green, R.drawable.toys_green, R.drawable.book_green,
+            R.drawable.bottle_cap_green, R.drawable.armchair_green, R.drawable.boot_green, R.drawable.tshirt_green,
+            R.drawable.compost_green, R.drawable.handicrafts_green, R.drawable.brick_green, R.drawable.souvenir_green, R.drawable.taxi_green, R.drawable.responsive_green};
+
+    public static String SpaceAndCommas(String s) {
+        String s2="";
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) != ' ' && s.charAt(i) != ',')
+                s2 += s.charAt(i);
+        }
+        return s2;
+    }
 
     public CategoriesRVAdapter(ArrayList<Category> categories, Context context) {
         this.categories = categories;
@@ -34,7 +45,6 @@ public class CategoriesRVAdapter extends RecyclerView.Adapter<CategoriesRVAdapte
     @Override
     public CategoriesRVAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 //        Log.d("CHECK", "onCreateViewHolder");
-//        int optionId = 0;
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.tab_opened111, parent, false);
         return new MyViewHolder(v);
     }
@@ -61,61 +71,76 @@ public class CategoriesRVAdapter extends RecyclerView.Adapter<CategoriesRVAdapte
             holder.exchange.setVisibility(View.VISIBLE);
         else
             holder.exchange.setVisibility(View.GONE);
-//        if (categories.get(position).getGive() == 1 && categories.get(position).getSell() == 1 && categories.get(currentPosition).getExchange() == 1) {
-//            holder.give.setVisibility(View.VISIBLE);
-//            holder.sell.setVisibility(View.VISIBLE);
-//            holder.exchange.setVisibility(View.VISIBLE);
-//        }
-//        else {
-//            if (categories.get(position).getGive() == 1 && categories.get(position).getSell() == 1 && categories.get(currentPosition).getExchange() == 0) {
-//                holder.give.setVisibility(View.VISIBLE);
-//                holder.sell.setVisibility(View.VISIBLE);
-//                holder.exchange.setVisibility(View.GONE);
-//            }
-//            else {
-//                holder.give.setVisibility(View.GONE);
-//                holder.sell.setVisibility(View.GONE);
-//                holder.exchange.setVisibility(View.GONE);
-//            }
-//        }
         if (currentPosition == position) {
             Animation slideDown = AnimationUtils.loadAnimation(context, R.anim.slide_left_fade);
             holder.constraintLayout.setVisibility(View.VISIBLE);
             holder.constraintLayout.startAnimation(slideDown);
         }
-        holder.unfolded.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                Log.d("CHECK", "onClick");
-                currentPosition = position;
-                notifyDataSetChanged();
-            }
-        });
-        holder.give.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(context, "give", Toast.LENGTH_SHORT).show();
-            }
-        });
-        holder.sell.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(context, "sell", Toast.LENGTH_SHORT).show();
-            }
-        });
-        holder.exchange.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(context, "exchange", Toast.LENGTH_SHORT).show();
-            }
-        });
 
+        if (categories.get(position).getGive() == 0 && categories.get(position).getSell() == 0 && categories.get(position).getExchange() == 0) {
+            holder.unfolded.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    currentPosition = position;
+                    notifyDataSetChanged();
+//                    Toast.makeText(context, SpaceAndCommas(categories.get(position).getCategory_name()), Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(context, MainActivity2.class);
+                    intent.putExtra("category_type", SpaceAndCommas(categories.get(position).getCategory_name()));
+                    intent.putExtra("category_name", categories.get(position).getCategory_name());
+                    intent.putExtra("category_pic", categoriesImages[position]);
+                    context.startActivity(intent);
+                }
+            });
+        } else {
+            holder.unfolded.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+//                Log.d("CHECK", "onClick");
+                    currentPosition = position;
+                    notifyDataSetChanged();
+                }
+            });
+            holder.give.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+//                    Toast.makeText(context, SpaceAndCommas(categories.get(position).getCategory_name()) + "Отдать", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(context, MainActivity2.class);
+                    intent.putExtra("category_type", SpaceAndCommas(categories.get(position).getCategory_name()) + "Отдать");
+                    intent.putExtra("category_name", categories.get(position).getCategory_name() + ": отдать");
+                    intent.putExtra("category_pic", categoriesImages[position]);
+                    context.startActivity(intent);
+                }
+            });
+            holder.sell.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+//                    Toast.makeText(context, SpaceAndCommas(categories.get(position).getCategory_name()) + "Продать", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(context, MainActivity2.class);
+                    intent.putExtra("category_type", SpaceAndCommas(categories.get(position).getCategory_name()) + "Продать");
+                    intent.putExtra("category_name", categories.get(position).getCategory_name() + ": продать");
+                    intent.putExtra("category_pic", categoriesImages[position]);
+                    context.startActivity(intent);
+                }
+            });
+            holder.exchange.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+//                    Toast.makeText(context, SpaceAndCommas(categories.get(position).getCategory_name()) + "Обменять", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(context, MainActivity2.class);
+                    intent.putExtra("category_type", SpaceAndCommas(categories.get(position).getCategory_name()) + "Обменять");
+                    intent.putExtra("category_name", categories.get(position).getCategory_name() + ": обменять");
+                    intent.putExtra("category_pic", categoriesImages[position]);
+                    context.startActivity(intent);
+                }
+            });
+        }
     }
 
     @Override
     public int getItemCount() {
         return categories.size();
     }
+
 
     class MyViewHolder extends RecyclerView.ViewHolder {
         ImageView imageView;

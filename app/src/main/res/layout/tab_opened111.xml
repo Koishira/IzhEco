@@ -46,7 +46,7 @@
 
             <TextView
                 android:id="@+id/category_name"
-                android:layout_width="190dp"
+                android:layout_width="205dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"

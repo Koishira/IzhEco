@@ -1,6 +1,7 @@
 package com.example.izheco;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,6 +37,12 @@ public class PlacesRVAdapter extends RecyclerView.Adapter<PlacesRVAdapter.MyView
         Place place = places.get(position);
         holder.imageView.setImageResource(places.get(position).getImage());
         holder.categoriesNames.setText(places.get(position).getPlace_name());
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                context.startActivity(new Intent(context, MainActivity3.class));
+            }
+        });
     }
 
 

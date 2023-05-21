@@ -5,10 +5,10 @@
         android:icon="@drawable/options_lines"
         android:id="@+id/category"
         />
-    <item
-        android:title="Избранное"
-        android:icon="@drawable/heart"
-        android:id="@+id/favourites"/>
+<!--    <item-->
+<!--        android:title="Избранное"-->
+<!--        android:icon="@drawable/heart"-->
+<!--        android:id="@+id/favourites"/>-->
     <item
         android:title="О приложении"
         android:icon="@drawable/information"

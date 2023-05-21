@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity{
                     case R.id.category:
                         selectedFragment = new CategoriesFragment();
                         break;
-                    case R.id.favourites:
-                        selectedFragment = new FavouritesFragment();
-                        break;
+//                    case R.id.favourites:
+//                        selectedFragment = new FavouritesFragment();
+//                        break;
                     case R.id.info:
                         selectedFragment = new InfoFragment();
                         break;

@@ -1,6 +1,7 @@
 package com.example.izheco;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,9 +33,7 @@ public class InfoFragment extends Fragment {
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("text/plain");
-                String shareBody = "Body";
-                String shareSubject = "Subject";
-                intent.putExtra(Intent.EXTRA_SUBJECT, shareSubject);
+                String shareBody = "Скачивайте приложение IzhEco - в нем можно найти информацию о том, где отдать/продать/обменять ненужные вещи в Ижевске!\nссылка";
                 intent.putExtra(Intent.EXTRA_TEXT, shareBody);
                 startActivity(Intent.createChooser(intent, "Share using"));
             }

@@ -25,23 +25,23 @@
         <item>СВОП маркет «Давай меняться»</item>
         <item>Магазин Добра «БлагоДарю»</item>
         <item>Экосервис «Junkl»</item>
-        <item>Приют "Кот и Пес"</item>
-        <item>Реабилитационный центр Амстафф</item>
+        <item>Приют «Кот и Пес»</item>
+        <item>Реабилитационный центр «Амстафф»</item>
         <item>Приют «Белый клык»</item>
         <item>Приют для животных «Белый Бим»</item>
         <item>АНО «Желтая Бирка»</item>
     </string-array>
     <string-array name="ВетошьПродать">
-        <item>Регоператор Удмуртии\n«Спецавтохозяйство»</item>
+        <item>Регоператор Удмуртии «Спецавтохозяйство»</item>
     </string-array>
 
     <string-array name="ВторсырьеОтдать">
-        <item>Регоператор Удмуртии\n«Спецавтохозяйство»</item>
+        <item>Регоператор Удмуртии «Спецавтохозяйство»</item>
         <item>Экосервис «Junkl»</item>
         <item>Локобоксы</item>
     </string-array>
     <string-array name="ВторсырьеПродать">
-        <item>Регоператор Удмуртии\n«Спецавтохозяйство»</item>
+        <item>Регоператор Удмуртии «Спецавтохозяйство»</item>
     </string-array>
 
     <string-array name="ИгрушкиОтдать">
@@ -79,7 +79,6 @@
         <item>Благотворительный фонд «Сила добра»</item>
         <item>Магазин книг «Памфлет»</item>
         <item>Группа ВК «Отдам БЕСПЛАТНО ДАРОМ Ижевск»</item>
-        <item>Благотворительный фонд «Силадобра»</item>
     </string-array>
     <string-array name="КнигиПродать">
         <item>«Авито»</item>
@@ -87,7 +86,6 @@
         <item>Магазин старых книг «Букинист»</item>
         <item>Группа ВК «Барахолка Ижевска»</item>
         <item>Сайт «Купи-Продай»</item>
-        <item>Группа ВК «Барахолка Ижевска»</item>
     </string-array>
     <string-array name="КнигиОбменять">
         <item>СВОП маркет «Давай меняться»</item>
@@ -98,12 +96,12 @@
     <string-array name="КрышечкиОтдать">
         <item>Склад сбора крышечек</item>
         <item>Штаб городских проектов «Лифт»</item>
-        <item>Храма Святителя Алексия Московского</item>
+        <item>Храм Святителя Алексия Московского</item>
         <item>Контейнер-сердце «Леруа Мерлен»</item>
         <item>Контейнер-сердце, Привокзальная площадь ж/д вокзала</item>
     </string-array>
     <string-array name="КрышечкиПродать">
-        <item>Регоператор Удмуртии\n«Спецавтохозяйство»</item>
+        <item>Регоператор Удмуртии «Спецавтохозяйство»</item>
     </string-array>
 
     <string-array name="МебельОтдать">
@@ -129,7 +127,7 @@
         <item>«Авито»</item>
         <item>«Юла»</item>
         <item>Пункт гуманитарной помощи при Соборе Святой Троицы</item>
-        <item>Проект "Приют Человека" г. Ижевск | ЦРА Судьбы</item>
+        <item>Проект «Приют Человека» г. Ижевск | ЦРА Судьбы</item>
         <item>Группа ВК «Отдам БЕСПЛАТНО ДАРОМ Ижевск»</item>
         <item>Благотворительный фонд «Силадобра»</item>
     </string-array>
@@ -230,13 +228,13 @@
     </string-array>
 
     <string-array name="Экотакси">
-        <item>Регоператор Удмуртии\n«Спецавтохозяйство»</item>
+        <item>Регоператор Удмуртии «Спецавтохозяйство»</item>
         <item>СВОП такси</item>
         <item>Экотакси Компания «Junkl»</item>
     </string-array>
 
     <string-array name="ЭлектроникаитехникаОтдать">
-        <item>Регоператор Удмуртии\n«Спецавтохозяйство»</item>
+        <item>Регоператор Удмуртии «Спецавтохозяйство»</item>
         <item>Экосервис «Junkl»</item>
         <item>Магазин Добра «БлагоДарю»</item>
         <item>Группа ВК «Отдам БЕСПЛАТНО ДАРОМ Ижевск»</item>
@@ -247,7 +245,7 @@
     </string-array>
     <string-array name="ЭлектроникаитехникаПродать">
         <item>Пункт приема электроники</item>
-        <item>Компания\n«Техно б/у»</item>
+        <item>Компания«Техно б/у»</item>
         <item>«Авито»</item>
         <item>«Юла»</item>
         <item>Сайт «Купи-Продай»</item>
@@ -258,6 +256,1294 @@
         <item>Утилизация техники</item>
     </string-array>
 
+
+    <string-array name="СВОПмаркетДавайменятьсяВетошьотдать">
+        <item>swopmarket</item>
+        <item>СВОП маркет «Давай меняться»</item>
+        <item>Адреса:\n1. Ул. Красноармейская, 135 (выше Цирка, не доходя до ул. Ленина)\n2. Ул. Ворошилова, 53 (ТЦ "Полет", цокольный этаж)\n3. Ул. Карла Маркса, 244, ТЦ Леон, 2 этаж (вход со стороны КЦ Россия)\n4. Ул. Гор. Строителей, 48 (ост. Магазин Родина)\n5. Ул. 7-я Подлесная, 71, ЖК "Изумруд"\n6. Ул. Коммунаров, 351\n\nПункты приема:\n1. Ул. Авангардная, 6А, в ателье на втором этаже\n2. Ул. Молодежная, 35, ТЦ "Золотой сентябрь" ателье\n3. Ул. Автозаводская, 3А, ТЦ Столица ателье на -1 этаже\n\nКонтейнеры:\n1. Парк Кирова - на центральной аллее\n2. Парк Космонавтов - напротив Планетария\n3. Ул. Цветочная, 7\n4. Ул. И. Закирова, 9\n5. Ул. Клубная, 19\n6. Ул. 7 Подлесная, 100, ЖК Снегири\n7. Ул. Парковая, 20\n8. Ул. Проспект Калашникова, 25, ЖК Матрёшки, у нижней парковки\n9. Ул. Орджоникидзе, 22, ЖК Ключевой поселок\n10. Мечеть на ул. К. Маркса\n11. Мечеть на ул. Азина\n12. Ситифест - перекресток ул. Кирова и ул. К. Маркса\n\nПринимают в переработку:\nЛюбая одежда только в чистом виде из следующих тканей: смесовые ткани – смесь натурального волокна с синтетическим, полусинтетические ткани, вязаные изделия, велюр, флис, вельвет, искусственная махра, вискоза, одежда из хлопка, постельное белье, полотенца, изделия из махры\n\nНе принимают в переработку: одеала и пледы, одежда из 100% синтетики, обувь, сумочки, ремни, кошельки, занавески, шторы, чехлы от старой мебели, изделия из кожи, меха, войлока и их заменители, пальто, шубы, пуховики, телогрейки, куртки, ветровки, трусы, колготки</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+    <string-array name="МагазинДобраБлагоДарюВетошьотдать">
+        <item>blagodaryu</item>
+        <item>Магазин Добра «БлагоДарю»</item>
+        <item>Боксы:\nТРК «Петровский» (0-ой этаж, между отделом «Детский мир» и Familia)\nТЦ «КИТ» (2-ой этаж, справа от эскалатора)\nТЦ «Мой Порт» (2-ой этаж, зона банкоматов около гипермаркета «Лента»)\nТЦ «Сигма» (0-ой этаж, зона банкоматов)\nТЦ «Эльгрин» (2-ой этаж, рядом с эскалатором)\n\nПринимают в переработку: хлопковая ветошь (при условии поддержки проекта по переработке текстиля из расчета пожертвования 20 руб за 1 кг ветоши)\nНе принимают в переработку: грязные вещи, вещи с плохим запахом, старые пиджаки и костюмы, шубы и пальто, одежду, в составе которой 50% и 100% синтетика, нижнее белье, чулочно-носочные изделия</item>
+        <item>+79962189938</item>
+        <item>none</item>
+        <item>https://vk.com/b.daryu</item>
+    </string-array>
+    <string-array name="ЭкосервисJunklВетошьотдать">
+        <item>junkl</item>
+        <item>Экосервис «Junkl»</item>
+        <item>Адреса:\n1. Ул. Буммашевская, 4А (будни с 8 до 17)\nУл. Карла Маркса, 250 (будни с 10 до 17; по предварительной договоренности)\n\nНе принимают: меха, кожа, капрон. Ветошь может быть дырявая, с неотстирываемыми пятнами, но чистая</item>
+        <item>+79821214182</item>
+        <item>none</item>
+        <item>https://vk.com/junkl</item>
+    </string-array>
+    <string-array name="ПриютКотиПесВетошьотдать">
+        <item>kotipes</item>
+        <item>Приют «Кот и Пес»</item>
+        <item>Принимают чистые хб вещи: одеяла, полотенца, постельное белье, пледы, пеленки, тряпки. В приют вещи привозить самостоятельно</item>
+        <item>576006</item>
+        <item>none</item>
+        <item>https://vk.com/club96357315</item>
+    </string-array>
+    <string-array name="РеабилитационныйцентрАмстаффВетошьотдать">
+        <item>amstaff</item>
+        <item>Реабилитационный центр «Амстафф»</item>
+        <item>Принимают крупную ветошь: пододеяльники, пледы, простыни, пальто. В приют вещи привозить самостоятельно</item>
+        <item>+79043127838</item>
+        <item>none</item>
+        <item>https://vk.com/staff_rc_18</item>
+    </string-array>
+    <string-array name="ПриютБелыйклыкВетошьотдать">
+        <item>beliyklik</item>
+        <item>Приют «Белый клык»</item>
+        <item>Принимают: хб тряпки, одеяла, простыни, полотенца</item>
+        <item>+79128566003</item>
+        <item>http://belyklyk.tilda.ws</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ПриютдляживотныхБелыйБимВетошьотдать">
+        <item>beliybim</item>
+        <item>Приют для животных «Белый Бим»</item>
+        <item>Принимают: полотенца, пледы, хб постельное белье, покрывала, одеяла</item>
+        <item>+79058779935</item>
+        <item>none</item>
+        <item>https://vk.com/belyybimizh</item>
+    </string-array>
+    <string-array name="АНОЖелтаяБиркаВетошьотдать">
+        <item>jeltayabirka</item>
+        <item>АНО «Желтая Бирка»</item>
+        <item>Принимают: одеяла шерстяные, покрывала, постельное белье, полотенца (все обязательно чистое)</item>
+        <item>+79068166600</item>
+        <item>none</item>
+        <item>https://vk.com/yellowbirka</item>
+    </string-array>
+
+    <string-array name="РегоператорУдмуртииСпецавтохозяйствоВетошьпродать">
+        <item>regoperator</item>
+        <item>Регоператор Удмуртии «Спецавтохозяйство»</item>
+        <item>Сеть Экодомов:\nУл. Молодёжная, 107А\nУл. Холмогорова, 11\nУл. Камбарская, 110\nЭкопост + Экодом:\nУл. Короткая, 31А\n\nПринимают в переработку:\nЧистый и сухой новый и б/у текстиль : постельное белье, полотенца, скатерти, футболки, юбки, платья, сорочки и т.д.\nНе принимают в переработку: нижнее белье, колготки из капрона; пуховики, пальто, куртки, шубы; обрезки ткани; изделия из экокожи, кожи, поролона, ваты, болоньи; одеяла, подушки, матрацы; сумки, ремни, обувь</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/regoperatorudmurtia</item>
+    </string-array>
+
+    <string-array name="РегоператорУдмуртииСпецавтохозяйствоВторсырьеотдать">
+        <item>regoperator</item>
+        <item>Регоператор Удмуртии «Спецавтохозяйство»</item>
+        <item>Сеть Экодомов:\nУл. Молодёжная, 107А\nУл. Холмогорова, 11\nУл. Камбарская, 110\nЭкопост + Экодом:\nУл. Короткая, 31А\n\nПринимается:\n1.Вспененный полистерол (маркировка 6)\n2.Жесткий полистерол (маркировка 6)\n3.Упаковка от кремов (маркировка 2,4,5)\n4. Пластиковые карты (без чипов и букв)\n5. Зубные щетки\n6. Упаковка от лекарств (блистеры)\n7. Металлические изделия</item>
+        <item>none</item>
+        <item>https://регоператорудмуртии.рф/razdelyaem_othodi</item>
+        <item>https://vk.com/regoperatorudmurtia</item>
+    </string-array>
+    <string-array name="ЭкосервисJunklВторсырьеотдать">
+        <item>junkl</item>
+        <item>Экосервис «Junkl»</item>
+        <item>Адреса:\n1. Ул. Буммашевская, 4А (будни с 8 до 17)\nУл. Карла Маркса, 250 (будни с 10 до 17; по предварительной договоренности)\n\nПринимается:\n1. Стекло (любое, сортировать по цветам не нужно)\n2. Металл (алюминий, жесть)\n3. Пластик ПЭТ (маркировка 1)\n4. Белый пластик ПЭТ (маркировка 1 и 2)\n5. Пленка (маркировка 4)\n6. Пленка мягкая (маркировка 5)\n7. Пленка твёрдая (маркировка 5, включая одноразовую посуду)\n8. Пленка фольгированная (маркировка 5: из-под чипсов, снеков, конфет, пакетиков чая, фантики)\n9. Пленка твердая (маркировка 6)\n10. Пленка вспененная (маркировка 6)\n11. Упаковки дой-пак (из-под майонеза, кетчупа, кофе)\n12. Тюбики от кремов, зубной пасты и т.д.\n13. Макулатура (без скотча и скоб, смять и упаковать)\n14. Тетрапак\n15. Пенопласт </item>
+        <item>+79821214182</item>
+        <item>none</item>
+        <item>https://vk.com/junkl</item>
+    </string-array>
+    <string-array name="ЛокобоксыВторсырьеотдать">
+        <item>lokoboksy</item>
+        <item>Локобоксы</item>
+        <item>1. Ул. Карла Маркса, 304Б (ПЭТ, картон)\n2. Ул. Пушкинская, 265 (ПЭТ, картон)\n3. Ул.7 Подлесная, 100, К3 (ПЭТ, картон)\n4. Ул. Клубная, 21 (ПЭТ, бумага)\n5. Мечеть на ул. Азина (ПЭТ, картон, стекло, тетрапак)\n6. Ул. Красная, 154 (ПЭТ)\n7. Ул. Карла Маркса, 133 (ПЭТ, картон, тетрапак, стекло)\n8. Ул. Красная, 154 (ПЭТ)\n9. Ул. Удмуртская, 201 (ПЭТ)\n10. Ул. Удмуртская, 204 (ПЭТ)\n11. Ул. Советская, 24 (ПЭТ)\n12. Ул. Ленина, 50 (ПЭТ)\n13. Ул. Ленина, 34 (ПЭТ)\n14. Ул. Орджоникидзе, 67 (ПЭТ, картон, металл, тетрапак, стекло)\n15. Ул. Парковая, 9А (ПЭТ, картон, металл)\n16. ЖК «Матрешки» (ПЭТ, картон)\n17. Ул. Кунгурцева, 8 (ПЭТ, картон)\n18. Парк Космонавтов (ПЭТ, картон)</item>
+        <item>none</item>
+        <item>https://clck.ru/34UEnE</item>
+        <item>https://vk.com/ecolocoizh</item>
+    </string-array>
+
+    <string-array name="РегоператорУдмуртииСпецавтохозяйствоВторсырьепродать">
+        <item>regoperator</item>
+        <item>Регоператор Удмуртии «Спецавтохозяйство»</item>
+        <item>Сеть Экодомов:\nУл. Молодёжная, 107А\nУл. Холмогорова, 11\nУл. Камбарская, 110\nЭкопост + Экодом:\nУл. Короткая, 31А\n\nПринимаются:\n1. Алюминиевые банки\n2. ПЭТ-бутылки от напитков и растительного масла\n3. Стретч-пленка\n4. Пленка ПВД (тепличная и пупырчатая)\n5. Крышки (маркировка 2 и 4)\n6. Белые ПЭТ-бутылки от напитков (маркировка 2 и 4)\n7. Бумага, картон\n8. Ведра белые (маркировка 5)\n9. Канистры (маркировка 2 и 4)\n10. Пластиковая тара (маркировка 5)\n11. Пакеты фасовочные и пакеты-майки\n12. Небутылочная прозрачная ПЭТ – тара (маркировка 1)\n13. Плотные и молочные пакеты\n14. Пластмассовые ящики\n15. Кеги пивные коричневые\n16. Пластиковая тара (маркировка 2)\n17. Коричневые и бесцветные стеклянные бутылки\n18. Шуршащие пакеты (маркировка 5)\n19. Стеклянные банки, бутылки, стеклобой\n20. Тетрапак</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/regoperatorudmurtia</item>
+    </string-array>
+
+    <string-array name="БлаготворительныйпроектБулавкаИгрушкиотдать">
+        <item>bulavka</item>
+        <item>Благотворительный проект «Булавка»</item>
+        <item>Адрес: г. Ижевск, ул. Площадь имени 50-летия Октября, 3</item>
+        <item>644096</item>
+        <item>none</item>
+        <item>https://vk.com/bulavka18</item>
+    </string-array>
+    <string-array name="МагазинДобраБлагоДарюИгрушкиотдать">
+        <item>blagodaryu</item>
+        <item>Магазин Добра «БлагоДарю»</item>
+        <item>Боксы:\nТРК «Петровский» (0-ой этаж, между отделом «Детский мир» и Familia)\nТЦ «КИТ» (2-ой этаж, справа от эскалатора)\nТЦ «Мой Порт» (2-ой этаж, зона банкоматов около гипермаркета «Лента»)\nТЦ «Сигма» (0-ой этаж, зона банкоматов)\nТЦ «Эльгрин» (2-ой этаж, рядом с эскалатором)</item>
+        <item>+79962189938</item>
+        <item>none</item>
+        <item>https://vk.com/b.daryu</item>
+    </string-array>
+    <string-array name="СВОПмаркетДавайменятьсяИгрушкиотдать">
+        <item>swopmarket</item>
+        <item>СВОП маркет «Давай меняться»</item>
+        <item>Адреса:\n1. Ул. Красноармейская, 135 (выше Цирка, не доходя до ул. Ленина)\n2. Ул. Ворошилова, 53 (ТЦ "Полет", цокольный этаж)\n3. Ул. Карла Маркса, 244, ТЦ Леон, 2 этаж (вход со стороны КЦ Россия)\n4. Ул. Гор. Строителей, 48 (ост. Магазин Родина)\n5. Ул. 7-я Подлесная, 71, ЖК "Изумруд"\n6. Ул. Коммунаров, 351\n\nПункты приема:\n1. Ул. Авангардная, 6А, в ателье на втором этаже\n2. Ул. Молодежная, 35, ТЦ "Золотой сентябрь" ателье\n3. Ул. Автозаводская, 3А, ТЦ Столица ателье на -1 этаже\n\nКонтейнеры:\n1. Парк Кирова - на центральной аллее\n2. Парк Космонавтов - напротив Планетария\n3. Ул. Цветочная, 7\n4. Ул. И. Закирова, 9\n5. Ул. Клубная, 19\n6. Ул. 7 Подлесная, 100, ЖК Снегири\n7. Ул. Парковая, 20\n8. Ул. Проспект Калашникова, 25, ЖК Матрёшки, у нижней парковки\n9. Ул. Орджоникидзе, 22, ЖК Ключевой поселок\n10. Мечеть на ул. К. Маркса\n11. Мечеть на ул. Азина\n12. Ситифест - перекресток ул. Кирова и ул. К. Маркса</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамдаромИЖЕВСКИгрушкиотдать">
+        <item>otdamdarom</item>
+        <item>Группа ВК «Отдам даром ИЖЕВСК»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/darizevsk</item>
+    </string-array>
+    <string-array name="СайтМарковскиефорумыветкаВыкинутьжалкоИгрушкиотдать">
+        <item>markforum</item>
+        <item>Сайт «Марковские форумы», ветка «Выкинуть жалко» </item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://clck.ru/34UEx3</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="АвитоИгрушкиотдать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаИгрушкиотдать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамБЕСПЛАТНОДАРОМИжевскИгрушкиотдать">
+        <item>otdambesplatnodarom</item>
+        <item>Группа ВК «Отдам БЕСПЛАТНО ДАРОМ Ижевск»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/besplatny_izhevsk</item>
+    </string-array>
+    <string-array name="БлаготворительныйфондСиладобраИгрушкиотдать">
+        <item>siladobra</item>
+        <item>Благотворительный фонд «Силадобра»</item>
+        <item>Адрес: ул. 10 лет Октября, 80 (БЦ «Нова-Парк», офис 307б)</item>
+        <item>+79090517446</item>
+        <item>none</item>
+        <item>https://vk.com/sila_dobra_izhevsk</item>
+    </string-array>
+    <string-array name="РеставраторкуколСвенЮлияИгрушкиотдать">
+        <item>toys_green</item>
+        <item>Реставратор кукол Свен Юлия</item>
+        <item>none</item>
+        <item>+79128726865</item>
+        <item>none</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="РеставраторкуколХохряковаТатьянаИгрушкиотдать">
+        <item>toys_green</item>
+        <item>Реставратор кукол Хохрякова Татьяна</item>
+        <item>none</item>
+        <item>+79991890313</item>
+        <item>none</item>
+        <item>none</item>
+    </string-array>
+
+    <string-array name="АвитоИгрушкипродать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаИгрушкипродать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКБарахолкаИжевскаИгрушкипродать">
+        <item>baraholka</item>
+        <item>Группа ВК «Барахолка Ижевска»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/izhbaraholka18</item>
+    </string-array>
+    <string-array name="СайтКупиПродайИгрушкипродать">
+        <item>kupiprodai</item>
+        <item>Сайт «Купи-Продай»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://udm.kupiprodai.ru</item>
+        <item>none</item>
+    </string-array>
+
+    <string-array name="СВОПмаркетДавайменятьсяИгрушкиобменять">
+        <item>swopmarket</item>
+        <item>СВОП маркет «Давай меняться»</item>
+        <item>Адреса:\n1. Ул. Красноармейская, 135 (выше Цирка, не доходя до ул. Ленина)\n2. Ул. Ворошилова, 53 (ТЦ "Полет", цокольный этаж)\n3. Ул. Карла Маркса, 244, ТЦ Леон, 2 этаж (вход со стороны КЦ Россия)\n4. Ул. Гор. Строителей, 48 (ост. Магазин Родина)\n5. Ул. 7-я Подлесная, 71, ЖК "Изумруд"\n6. Ул. Коммунаров, 351</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+
+    <string-array name="БлаготворительныйпроектБулавкаКнигиотдать">
+        <item>bulavka</item>
+        <item>Благотворительный проект «Булавка»</item>
+        <item>Адрес: г. Ижевск, ул. Площадь имени 50-летия Октября, 3</item>
+        <item>644096</item>
+        <item>none</item>
+        <item>https://vk.com/bulavka18</item>
+    </string-array>
+    <string-array name="МагазинДобраБлагоДарюКнигиотдать">
+        <item>blagodaryu</item>
+        <item>Магазин Добра «БлагоДарю»</item>
+        <item>Адрес: г. Ижевск, ул. Мельничная, 46\n\nБоксы:\nТРК «Петровский» (0-ой этаж, между отделом «Детский мир» и Familia)\nТЦ «КИТ» (2-ой этаж, справа от эскалатора)\nТЦ «Мой Порт» (2-ой этаж, зона банкоматов около гипермаркета «Лента»)\nТЦ «Сигма» (0-ой этаж, зона банкоматов)\nТЦ «Эльгрин» (2-ой этаж, рядом с эскалатором)</item>
+        <item>+79962189938</item>
+        <item>none</item>
+        <item>https://vk.com/b.daryu</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамдаромИЖЕВСККнигиотдать">
+        <item>otdamdarom</item>
+        <item>Группа ВК «Отдам даром ИЖЕВСК»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/darizevsk</item>
+    </string-array>
+    <string-array name="СайтМарковскиефорумыветкаВыкинутьжалкоКнигиотдать">
+        <item>markforum</item>
+        <item>Сайт «Марковские форумы», ветка «Выкинуть жалко» </item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://clck.ru/34UEx3</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="АвитоКнигиотдать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаКнигиотдать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ШкафыКниговоротаКнигиотдать">
+        <item>parkkirova</item>
+        <item>Шкафы «Книговорота»</item>
+        <item>Адрес: г. Ижевск, парк Кирова правая аллея</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЦентрРусскойкультурыРусскийдомКнигиотдать">
+        <item>russkiydom</item>
+        <item>Центр Русской культуры «Русский дом» </item>
+        <item>Адрес: г. Ижевск, ул. Воткинское шоссе, 118Т</item>
+        <item>440522</item>
+        <item>none</item>
+        <item>https://vk.com/russki_dom</item>
+    </string-array>
+    <string-array name="БлаготворительныйфондСиладобраКнигиотдать">
+        <item>siladobra</item>
+        <item>Благотворительный фонд «Силадобра»</item>
+        <item>Адрес: ул. 10 лет Октября, 80 (БЦ «Нова-Парк», офис 307б)</item>
+        <item>+79090517446</item>
+        <item>none</item>
+        <item>https://vk.com/sila_dobra_izhevsk</item>
+    </string-array>
+    <string-array name="МагазинкнигПамфлетКнигиотдать">
+        <item>pamflet</item>
+        <item>Магазин книг «Памфлет»</item>
+        <item>Адрес: г. Ижевск, ул. Пушкинская, 283</item>
+        <item>643483</item>
+        <item>none</item>
+        <item>https://vk.com/pamflet</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамБЕСПЛАТНОДАРОМИжевскКнигиотдать">
+        <item>otdambesplatnodarom</item>
+        <item>Группа ВК «Отдам БЕСПЛАТНО ДАРОМ Ижевск»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/besplatny_izhevsk</item>
+    </string-array>
+
+    <string-array name="АвитоКнигипродать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаКнигипродать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="МагазинстарыхкнигБукинистКнигипродать">
+        <item>bukinist</item>
+        <item>Магазин старых книг «Букинист»</item>
+        <item>Адрес: г. Ижевск, ул. Красная, 156</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/krasnaya156</item>
+    </string-array>
+    <string-array name="ГруппаВКБарахолкаИжевскаКнигипродать">
+        <item>baraholka</item>
+        <item>Группа ВК «Барахолка Ижевска»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/izhbaraholka18</item>
+    </string-array>
+    <string-array name="СайтКупиПродайКнигипродать">
+        <item>kupiprodai</item>
+        <item>Сайт «Купи-Продай»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://udm.kupiprodai.ru</item>
+        <item>none</item>
+    </string-array>
+
+    <string-array name="СВОПмаркетДавайменятьсяКнигиобменять">
+        <item>swopmarket</item>
+        <item>СВОП маркет «Давай меняться»</item>
+        <item>Адреса:\n1. Ул. Красноармейская, 135 (выше Цирка, не доходя до ул. Ленина)\n2. Ул. Ворошилова, 53 (ТЦ "Полет", цокольный этаж)\n3. Ул. Карла Маркса, 244, ТЦ Леон, 2 этаж (вход со стороны КЦ Россия)\n4. Ул. Гор. Строителей, 48 (ост. Магазин Родина)\n5. Ул. 7-я Подлесная, 71, ЖК "Изумруд"\n6. Ул. Коммунаров, 351</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+    <string-array name="ШтабгородскихпроектовЛИФТКнигиобменять">
+        <item>lift</item>
+        <item>Штаб городских проектов «ЛИФТ»</item>
+        <item>Акция «Книговорот»</item>
+        <item>245494</item>
+        <item>none</item>
+        <item>https://vk.com/shtab_lift</item>
+    </string-array>
+    <string-array name="BookcrossingКнигообменИжевскКнигиобменять">
+        <item>knigoobmen</item>
+        <item>Bookcrossing | Книгообмен | Ижевск</item>
+        <item>Адрес: г.Ижевск, ул. Пушкинская, 160 (вход через магазин «Радио маркет»)</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/bookcrossing_izh</item>
+    </string-array>
+
+    <string-array name="СкладсборакрышечекКрышечкиотдать">
+        <item>izhevskiekryshechki</item>
+        <item>Склад сбора крышечек</item>
+        <item>Адрес: г.Ижевск, ул. Буммашевская, 4А</item>
+        <item>+79199138068</item>
+        <item>none</item>
+        <item>https://vk.me/izhevskie_krishechki</item>
+    </string-array>
+    <string-array name="ШтабгородскихпроектовЛифтКрышечкиотдать">
+        <item>lift</item>
+        <item>Штаб городских проектов «ЛИФТ»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/shtab_lift</item>
+    </string-array>
+    <string-array name="ХрамСвятителяАлексияМосковскогоКрышечкиотдать">
+        <item>hramaleksiya</item>
+        <item>Храм Святителя Алексия Московского</item>
+        <item>Адрес: г. Ижевск, ул. Гагарина, 2</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/club171892901</item>
+    </string-array>
+    <string-array name="КонтейнерсердцеЛеруаМерленКрышечкиотдать">
+        <item>leruamerlen</item>
+        <item>Контейнер-сердце «Леруа Мерлен»</item>
+        <item>Адрес: г. Ижевск, Камбарская, 108</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/leroymerlin_izhevsk</item>
+    </string-array>
+    <string-array name="КонтейнерсердцеПривокзальнаяплощадьждвокзалаКрышечкиотдать">
+        <item>vokzal</item>
+        <item>Контейнер-сердце</item>
+        <item>Привокзальная площадь ж/д вокзала</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+    </string-array>
+
+    <string-array name="РегоператорУдмуртииСпецавтохозяйствоКрышечкипродать">
+        <item>regoperator</item>
+        <item>Регоператор Удмуртии «Спецавтохозяйство»</item>
+        <item>Сеть Экодомов:\nУл. Молодёжная, 107А\nУл. Холмогорова, 11\nУл. Камбарская, 110\nЭкопост + Экодом:\nУл. Короткая, 31А</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/regoperatorudmurtia</item>
+    </string-array>
+
+    <string-array name="ГруппаВКОтдамдаромИЖЕВСКМебельотдать">
+        <item>otdamdarom</item>
+        <item>Группа ВК «Отдам даром ИЖЕВСК»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/darizevsk</item>
+    </string-array>
+    <string-array name="СайтМарковскиефорумыветкаВыкинутьжалкоМебельотдать">
+        <item>markforum</item>
+        <item>Сайт «Марковские форумы», ветка «Выкинуть жалко» </item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://clck.ru/34UEx3</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="АвитоМебельотдать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаМебельотдать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамБЕСПЛАТНОДАРОМИжевскМебельотдать">
+        <item>otdambesplatnodarom</item>
+        <item>Группа ВК «Отдам БЕСПЛАТНО ДАРОМ Ижевск»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/besplatny_izhevsk</item>
+    </string-array>
+
+    <string-array name="АвитоМебельпродать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаМебельпродать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКБарахолкаИжевскаМебельпродать">
+        <item>baraholka</item>
+        <item>Группа ВК «Барахолка Ижевска»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/izhbaraholka18</item>
+    </string-array>
+    <string-array name="СайтКупиПродайМебельпродать">
+        <item>kupiprodai</item>
+        <item>Сайт «Купи-Продай»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://udm.kupiprodai.ru</item>
+        <item>none</item>
+    </string-array>
+
+    <string-array name="БлаготворительныйпроектБулавкаОбувьотдать">
+        <item>bulavka</item>
+        <item>Благотворительный проект «Булавка»</item>
+        <item>Адрес: г. Ижевск, ул. Площадь имени 50-летия Октября, 3</item>
+        <item>644096</item>
+        <item>none</item>
+        <item>https://vk.com/bulavka18</item>
+    </string-array>
+    <string-array name="МагазинДобраБлагоДарюОбувьотдать">
+        <item>blagodaryu</item>
+        <item>Магазин Добра «БлагоДарю»</item>
+        <item>Адрес: г. Ижевск, ул. Мельничная, 46\n\nБоксы:\nТРК «Петровский» (0-ой этаж, между отделом «Детский мир» и Familia)\nТЦ «КИТ» (2-ой этаж, справа от эскалатора)\nТЦ «Мой Порт» (2-ой этаж, зона банкоматов около гипермаркета «Лента»)\nТЦ «Сигма» (0-ой этаж, зона банкоматов)\nТЦ «Эльгрин» (2-ой этаж, рядом с эскалатором)</item>
+        <item>+79962189938</item>
+        <item>none</item>
+        <item>https://vk.com/b.daryu</item>
+    </string-array>
+    <string-array name="СВОПмаркетДавайменятьсяОбувьотдать">
+        <item>swopmarket</item>
+        <item>СВОП маркет «Давай меняться»</item>
+        <item>Адреса:\n1. Ул. Красноармейская, 135 (выше Цирка, не доходя до ул. Ленина)\n2. Ул. Ворошилова, 53 (ТЦ "Полет", цокольный этаж)\n3. Ул. Карла Маркса, 244, ТЦ Леон, 2 этаж (вход со стороны КЦ Россия)\n4. Ул. Гор. Строителей, 48 (ост. Магазин Родина)\n5. Ул. 7-я Подлесная, 71, ЖК "Изумруд"\n6. Ул. Коммунаров, 351\n\nПункты приема:\n1. Ул. Авангардная, 6А, в ателье на втором этаже\n2. Ул. Молодежная, 35, ТЦ "Золотой сентябрь" ателье\n3. Ул. Автозаводская, 3А, ТЦ Столица ателье на -1 этаже\n\nКонтейнеры:\n1. Парк Кирова - на центральной аллее\n2. Парк Космонавтов - напротив Планетария\n3. Ул. Цветочная, 7\n4. Ул. И. Закирова, 9\n5. Ул. Клубная, 19\n6. Ул. 7 Подлесная, 100, ЖК Снегири\n7. Ул. Парковая, 20\n8. Ул. Проспект Калашникова, 25, ЖК Матрёшки, у нижней парковки\n9. Ул. Орджоникидзе, 22, ЖК Ключевой поселок\n10. Мечеть на ул. К. Маркса\n11. Мечеть на ул. Азина\n12. Ситифест - перекресток ул. Кирова и ул. К. Маркса</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамдаромИЖЕВСКОбувьотдать">
+        <item>otdamdarom</item>
+        <item>Группа ВК «Отдам даром ИЖЕВСК»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/darizevsk</item>
+    </string-array>
+    <string-array name="СайтМарковскиефорумыветкаВыкинутьжалкоОбувьотдать">
+        <item>markforum</item>
+        <item>Сайт «Марковские форумы», ветка «Выкинуть жалко» </item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://clck.ru/34UEx3</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="АвитоОбувьотдать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаОбувьотдать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ПунктгуманитарнойпомощиприСобореСвятойТроицыОбувьотдать">
+        <item>soborsvyatoytroicy</item>
+        <item>Пункт гуманитарной помощи при Соборе Святой Троицы</item>
+        <item>Адрес: г. Ижевск, ул. Удмуртская, 220, Собор Святой Троицы</item>
+        <item>+79828242064</item>
+        <item>none</item>
+        <item>https://vk.com/izhtroicasobor</item>
+    </string-array>
+    <string-array name="ПроектПриютЧеловекагИжевскЦРАСудьбыОбувьотдать">
+        <item>priyutcheloveka</item>
+        <item>Проект «Приют Человека» г. Ижевск | ЦРА Судьбы</item>
+        <item>Адрес: г. Ижевск, ул. имени Вадима Сивкова, 141</item>
+        <item>561720</item>
+        <item>none</item>
+        <item>https://vk.com/cra_sydba_izh</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамБЕСПЛАТНОДАРОМИжевскОбувьотдать">
+        <item>otdambesplatnodarom</item>
+        <item>Группа ВК «Отдам БЕСПЛАТНО ДАРОМ Ижевск»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/besplatny_izhevsk</item>
+    </string-array>
+    <string-array name="БлаготворительныйфондСиладобраОбувьотдать">
+        <item>siladobra</item>
+        <item>Благотворительный фонд «Силадобра»</item>
+        <item>Адрес: ул. 10 лет Октября, 80 (БЦ «Нова-Парк», офис 307б)</item>
+        <item>+79090517446</item>
+        <item>none</item>
+        <item>https://vk.com/sila_dobra_izhevsk</item>
+    </string-array>
+
+    <string-array name="АвитоОбувьпродать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаОбувьпродать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКБарахолкаИжевскаОбувьпродать">
+        <item>baraholka</item>
+        <item>Группа ВК «Барахолка Ижевска»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/izhbaraholka18</item>
+    </string-array>
+    <string-array name="СайтКупиПродайОбувьпродать">
+        <item>kupiprodai</item>
+        <item>Сайт «Купи-Продай»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://udm.kupiprodai.ru</item>
+        <item>none</item>
+    </string-array>
+
+    <string-array name="СВОПмаркетДавайменятьсяОбувьобменять">
+        <item>swopmarket</item>
+        <item>СВОП маркет «Давай меняться»</item>
+        <item>Адреса:\n1. Ул. Красноармейская, 135 (выше Цирка, не доходя до ул. Ленина)\n2. Ул. Ворошилова, 53 (ТЦ "Полет", цокольный этаж)\n3. Ул. Карла Маркса, 244, ТЦ Леон, 2 этаж (вход со стороны КЦ Россия)\n4. Ул. Гор. Строителей, 48 (ост. Магазин Родина)\n5. Ул. 7-я Подлесная, 71, ЖК "Изумруд"\n6. Ул. Коммунаров, 351</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+
+    <string-array name="БлаготворительныйпроектБулавкаОдеждаотдать">
+        <item>bulavka</item>
+        <item>Благотворительный проект «Булавка»</item>
+        <item>Адрес: г. Ижевск, ул. Площадь имени 50-летия Октября, 3</item>
+        <item>644096</item>
+        <item>none</item>
+        <item>https://vk.com/bulavka18</item>
+    </string-array>
+    <string-array name="МагазинДобраБлагоДарюОдеждаотдать">
+        <item>blagodaryu</item>
+        <item>Магазин Добра «БлагоДарю»</item>
+        <item>Адрес: г. Ижевск, ул. Мельничная, 46\n\nБоксы:\nТРК «Петровский» (0-ой этаж, между отделом «Детский мир» и Familia)\nТЦ «КИТ» (2-ой этаж, справа от эскалатора)\nТЦ «Мой Порт» (2-ой этаж, зона банкоматов около гипермаркета «Лента»)\nТЦ «Сигма» (0-ой этаж, зона банкоматов)\nТЦ «Эльгрин» (2-ой этаж, рядом с эскалатором)</item>
+        <item>+79962189938</item>
+        <item>none</item>
+        <item>https://vk.com/b.daryu</item>
+    </string-array>
+    <string-array name="СВОПмаркетДавайменятьсяОдеждаотдать">
+        <item>swopmarket</item>
+        <item>СВОП маркет «Давай меняться»</item>
+        <item>Адреса:\n1. Ул. Красноармейская, 135 (выше Цирка, не доходя до ул. Ленина)\n2. Ул. Ворошилова, 53 (ТЦ "Полет", цокольный этаж)\n3. Ул. Карла Маркса, 244, ТЦ Леон, 2 этаж (вход со стороны КЦ Россия)\n4. Ул. Гор. Строителей, 48 (ост. Магазин Родина)\n5. Ул. 7-я Подлесная, 71, ЖК "Изумруд"\n6. Ул. Коммунаров, 351\n\nПункты приема:\n1. Ул. Авангардная, 6А, в ателье на втором этаже\n2. Ул. Молодежная, 35, ТЦ "Золотой сентябрь" ателье\n3. Ул. Автозаводская, 3А, ТЦ Столица ателье на -1 этаже\n\nКонтейнеры:\n1. Парк Кирова - на центральной аллее\n2. Парк Космонавтов - напротив Планетария\n3. Ул. Цветочная, 7\n4. Ул. И. Закирова, 9\n5. Ул. Клубная, 19\n6. Ул. 7 Подлесная, 100, ЖК Снегири\n7. Ул. Парковая, 20\n8. Ул. Проспект Калашникова, 25, ЖК Матрёшки, у нижней парковки\n9. Ул. Орджоникидзе, 22, ЖК Ключевой поселок\n10. Мечеть на ул. К. Маркса\n11. Мечеть на ул. Азина\n12. Ситифест - перекресток ул. Кирова и ул. К. Маркса</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+    <string-array name="ЭкосервисJunklОдеждаотдать">
+        <item>junkl</item>
+        <item>Экосервис «Junkl»</item>
+        <item>Адреса:\n1. Ул. Буммашевская, 4А (будни с 8 до 17)\nУл. Карла Маркса, 250 (будни с 10 до 17; по предварительной договоренности)</item>
+        <item>+79821214182</item>
+        <item>none</item>
+        <item>https://vk.com/junkl</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамдаромИЖЕВСКОдеждаотдать">
+        <item>otdamdarom</item>
+        <item>Группа ВК «Отдам даром ИЖЕВСК»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/darizevsk</item>
+    </string-array>
+    <string-array name="СайтМарковскиефорумыветкаВыкинутьжалкоОдеждаотдать">
+        <item>markforum</item>
+        <item>Сайт «Марковские форумы», ветка «Выкинуть жалко» </item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://clck.ru/34UEx3</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="АвитоОдеждаотдать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаОдеждаотдать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ПунктгуманитарнойпомощиприСобореСвятойТроицыОдеждаотдать">
+        <item>soborsvyatoytroicy</item>
+        <item>Пункт гуманитарной помощи при Соборе Святой Троицы</item>
+        <item>Адрес: г. Ижевск, ул. Удмуртская, 220, Собор Святой Троицы</item>
+        <item>+79828242064</item>
+        <item>none</item>
+        <item>https://vk.com/izhtroicasobor</item>
+    </string-array>
+    <string-array name="ПроектПриютЧеловекагИжевскЦРАСудьбыОдеждаотдать">
+        <item>priyutcheloveka</item>
+        <item>Проект «Приют Человека» г. Ижевск | ЦРА Судьбы</item>
+        <item>Адрес: г. Ижевск, ул. имени Вадима Сивкова, 141</item>
+        <item>561720</item>
+        <item>none</item>
+        <item>https://vk.com/cra_sydba_izh</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамБЕСПЛАТНОДАРОМИжевскОдеждаотдать">
+        <item>otdambesplatnodarom</item>
+        <item>Группа ВК «Отдам БЕСПЛАТНО ДАРОМ Ижевск»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/besplatny_izhevsk</item>
+    </string-array>
+    <string-array name="БлаготворительныйфондСиладобраОдеждаотдать">
+        <item>siladobra</item>
+        <item>Благотворительный фонд «Силадобра»</item>
+        <item>Адрес: ул. 10 лет Октября, 80 (БЦ «Нова-Парк», офис 307б)</item>
+        <item>+79090517446</item>
+        <item>none</item>
+        <item>https://vk.com/sila_dobra_izhevsk</item>
+    </string-array>
+
+    <string-array name="АвитоОдеждапродать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаОдеждапродать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЭкодомОдеждапродать">
+        <item>regoperator</item>
+        <item>«Экодом»</item>
+        <item>Сеть Экодомов:\nУл. Молодёжная, 107А\nУл. Холмогорова, 11\nУл. Камбарская, 110\nЭкопост + Экодом:\nУл. Короткая, 31А</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/regoperatorudmurtia</item>
+    </string-array>
+    <string-array name="ГруппаВКБарахолкаИжевскаОдеждапродать">
+        <item>baraholka</item>
+        <item>Группа ВК «Барахолка Ижевска»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/izhbaraholka18</item>
+    </string-array>
+    <string-array name="СайтКупиПродайОдеждапродать">
+        <item>kupiprodai</item>
+        <item>Сайт «Купи-Продай»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://udm.kupiprodai.ru</item>
+        <item>none</item>
+    </string-array>
+
+    <string-array name="СВОПмаркетДавайменятьсяОдеждаобменять">
+        <item>swopmarket</item>
+        <item>СВОП маркет «Давай меняться»</item>
+        <item>Адреса:\n1. Ул. Красноармейская, 135 (выше Цирка, не доходя до ул. Ленина)\n2. Ул. Ворошилова, 53 (ТЦ "Полет", цокольный этаж)\n3. Ул. Карла Маркса, 244, ТЦ Леон, 2 этаж (вход со стороны КЦ Россия)\n4. Ул. Гор. Строителей, 48 (ост. Магазин Родина)\n5. Ул. 7-я Подлесная, 71, ЖК "Изумруд"\n6. Ул. Коммунаров, 351</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+
+    <string-array name="ВермифермерЛилияШустоваОрганика">
+        <item>compost_green</item>
+        <item>Вермифермер Лилия Шустова </item>
+        <item>Органику привозить самостоятельно по звонку </item>
+        <item>+79043110101</item>
+        <item>none</item>
+        <item>https://vk.com/l.shustova</item>
+    </string-array>
+
+    <string-array name="БлаготворительныйпроектБулавкаРукоделиеитворчествоотдать">
+        <item>bulavka</item>
+        <item>Благотворительный проект «Булавка»</item>
+        <item>Адрес: г. Ижевск, ул. Площадь имени 50-летия Октября, 3</item>
+        <item>644096</item>
+        <item>none</item>
+        <item>https://vk.com/bulavka18</item>
+    </string-array>
+    <string-array name="МагазинДобраБлагоДарюРукоделиеитворчествоотдать">
+        <item>blagodaryu</item>
+        <item>Магазин Добра «БлагоДарю»</item>
+        <item>Боксы:\nТРК «Петровский» (0-ой этаж, между отделом «Детский мир» и Familia)\nТЦ «КИТ» (2-ой этаж, справа от эскалатора)\nТЦ «Мой Порт» (2-ой этаж, зона банкоматов около гипермаркета «Лента»)\nТЦ «Сигма» (0-ой этаж, зона банкоматов)\nТЦ «Эльгрин» (2-ой этаж, рядом с эскалатором)\n\nПринимаются ткани</item>
+        <item>+79962189938</item>
+        <item>none</item>
+        <item>https://vk.com/b.daryu</item>
+    </string-array>
+    <string-array name="СВОПмаркетДавайменятьсяРукоделиеитворчествоотдать">
+        <item>swopmarket</item>
+        <item>СВОП маркет «Давай меняться»</item>
+        <item>Адреса:\n1. Ул. Красноармейская, 135 (выше Цирка, не доходя до ул. Ленина)\n2. Ул. Ворошилова, 53 (ТЦ "Полет", цокольный этаж)\n3. Ул. Карла Маркса, 244, ТЦ Леон, 2 этаж (вход со стороны КЦ Россия)\n4. Ул. Гор. Строителей, 48 (ост. Магазин Родина)\n5. Ул. 7-я Подлесная, 71, ЖК "Изумруд"\n6. Ул. Коммунаров, 351\n\nПункты приема:\n1. Ул. Авангардная, 6А, в ателье на втором этаже\n2. Ул. Молодежная, 35, ТЦ "Золотой сентябрь" ателье\n3. Ул. Автозаводская, 3А, ТЦ Столица ателье на -1 этаже\n\nКонтейнеры:\n1. Парк Кирова - на центральной аллее\n2. Парк Космонавтов - напротив Планетария\n3. Ул. Цветочная, 7\n4. Ул. И. Закирова, 9\n5. Ул. Клубная, 19\n6. Ул. 7 Подлесная, 100, ЖК Снегири\n7. Ул. Парковая, 20\n8. Ул. Проспект Калашникова, 25, ЖК Матрёшки, у нижней парковки\n9. Ул. Орджоникидзе, 22, ЖК Ключевой поселок\n10. Мечеть на ул. К. Маркса\n11. Мечеть на ул. Азина\n12. Ситифест - перекресток ул. Кирова и ул. К. Маркса</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамдаромИЖЕВСКРукоделиеитворчествоотдать">
+        <item>otdamdarom</item>
+        <item>Группа ВК «Отдам даром ИЖЕВСК»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/darizevsk</item>
+    </string-array>
+    <string-array name="СайтМарковскиефорумыветкаВыкинутьжалкоРукоделиеитворчествоотдать">
+        <item>markforum</item>
+        <item>Сайт «Марковские форумы», ветка «Выкинуть жалко» </item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://clck.ru/34UEx3</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="АвитоРукоделиеитворчествоотдать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаРукоделиеитворчествоотдать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамБЕСПЛАТНОДАРОМИжевскРукоделиеитворчествоотдать">
+        <item>otdambesplatnodarom</item>
+        <item>Группа ВК «Отдам БЕСПЛАТНО ДАРОМ Ижевск»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/besplatny_izhevsk</item>
+    </string-array>
+    <string-array name="БлаготворительныйфондСиладобраРукоделиеитворчествоотдать">
+        <item>siladobra</item>
+        <item>Благотворительный фонд «Силадобра»</item>
+        <item>Адрес: ул. 10 лет Октября, 80 (БЦ «Нова-Парк», офис 307б)</item>
+        <item>+79090517446</item>
+        <item>none</item>
+        <item>https://vk.com/sila_dobra_izhevsk</item>
+    </string-array>
+
+    <string-array name="АвитоРукоделиеитворчествопродать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаРукоделиеитворчествопродать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКБарахолкаИжевскаРукоделиеитворчествопродать">
+        <item>baraholka</item>
+        <item>Группа ВК «Барахолка Ижевска»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/izhbaraholka18</item>
+    </string-array>
+    <string-array name="СайтКупиПродайРукоделиеитворчествопродать">
+        <item>kupiprodai</item>
+        <item>Сайт «Купи-Продай»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://udm.kupiprodai.ru</item>
+        <item>none</item>
+    </string-array>
+
+    <string-array name="СВОПмаркетДавайменятьсяРукоделиеитворчествообменять">
+        <item>swopmarket</item>
+        <item>СВОП маркет «Давай меняться»</item>
+        <item>Адреса:\n1. Ул. Красноармейская, 135 (выше Цирка, не доходя до ул. Ленина)\n2. Ул. Ворошилова, 53 (ТЦ "Полет", цокольный этаж)\n3. Ул. Карла Маркса, 244, ТЦ Леон, 2 этаж (вход со стороны КЦ Россия)\n4. Ул. Гор. Строителей, 48 (ост. Магазин Родина)\n5. Ул. 7-я Подлесная, 71, ЖК "Изумруд"\n6. Ул. Коммунаров, 351</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+
+    <string-array name="ГруппаВКОтдамдаромИЖЕВСКСтроительныематериалыотдать">
+        <item>otdamdarom</item>
+        <item>Группа ВК «Отдам даром ИЖЕВСК»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/darizevsk</item>
+    </string-array>
+    <string-array name="СайтМарковскиефорумыветкаВыкинутьжалкоСтроительныематериалыотдать">
+        <item>markforum</item>
+        <item>Сайт «Марковские форумы», ветка «Выкинуть жалко» </item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://clck.ru/34UEx3</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="АвитоСтроительныематериалыотдать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаСтроительныематериалыотдать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамБЕСПЛАТНОДАРОМИжевскСтроительныематериалыотдать">
+        <item>otdambesplatnodarom</item>
+        <item>Группа ВК «Отдам БЕСПЛАТНО ДАРОМ Ижевск»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/besplatny_izhevsk</item>
+    </string-array>
+    <string-array name="ГруппаВКБарахолкастройматериаловИжевскСтроительныематериалыотдать">
+        <item>baraholkastroymaterialov</item>
+        <item>Группа ВК «Барахолка стройматериалов Ижевск»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/izhstrbar</item>
+    </string-array>
+
+    <string-array name="АвитоСтроительныематериалыпродать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаСтроительныематериалыпродать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКБарахолкаИжевскаСтроительныематериалыпродать">
+        <item>baraholka</item>
+        <item>Группа ВК «Барахолка Ижевска»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/izhbaraholka18</item>
+    </string-array>
+    <string-array name="СайтКупиПродайСтроительныематериалыпродать">
+        <item>kupiprodai</item>
+        <item>Сайт «Купи-Продай»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://udm.kupiprodai.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКБарахолкастройматериаловИжевскСтроительныематериалыпродать">
+        <item>baraholkastroymaterialov</item>
+        <item>Группа ВК «Барахолка стройматериалов Ижевск»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/izhstrbar</item>
+    </string-array>
+
+    <string-array name="БлаготворительныйпроектБулавкаСувенирыбижутериясумкиотдать">
+        <item>bulavka</item>
+        <item>Благотворительный проект «Булавка»</item>
+        <item>Адрес: г. Ижевск, ул. Площадь имени 50-летия Октября, 3</item>
+        <item>644096</item>
+        <item>none</item>
+        <item>https://vk.com/bulavka18</item>
+    </string-array>
+    <string-array name="МагазинДобраБлагоДарюСувенирыбижутериясумкиотдать">
+        <item>blagodaryu</item>
+        <item>Магазин Добра «БлагоДарю»</item>
+        <item>Боксы:\nТРК «Петровский» (0-ой этаж, между отделом «Детский мир» и Familia)\nТЦ «КИТ» (2-ой этаж, справа от эскалатора)\nТЦ «Мой Порт» (2-ой этаж, зона банкоматов около гипермаркета «Лента»)\nТЦ «Сигма» (0-ой этаж, зона банкоматов)\nТЦ «Эльгрин» (2-ой этаж, рядом с эскалатором)</item>
+        <item>+79962189938</item>
+        <item>none</item>
+        <item>https://vk.com/b.daryu</item>
+    </string-array>
+    <string-array name="СВОПмаркетДавайменятьсяСувенирыбижутериясумкиотдать">
+        <item>swopmarket</item>
+        <item>СВОП маркет «Давай меняться»</item>
+        <item>Адреса:\n1. Ул. Красноармейская, 135 (выше Цирка, не доходя до ул. Ленина)\n2. Ул. Ворошилова, 53 (ТЦ "Полет", цокольный этаж)\n3. Ул. Карла Маркса, 244, ТЦ Леон, 2 этаж (вход со стороны КЦ Россия)\n4. Ул. Гор. Строителей, 48 (ост. Магазин Родина)\n5. Ул. 7-я Подлесная, 71, ЖК "Изумруд"\n6. Ул. Коммунаров, 351\n\nПункты приема:\n1. Ул. Авангардная, 6А, в ателье на втором этаже\n2. Ул. Молодежная, 35, ТЦ "Золотой сентябрь" ателье\n3. Ул. Автозаводская, 3А, ТЦ Столица ателье на -1 этаже\n\nКонтейнеры:\n1. Парк Кирова - на центральной аллее\n2. Парк Космонавтов - напротив Планетария\n3. Ул. Цветочная, 7\n4. Ул. И. Закирова, 9\n5. Ул. Клубная, 19\n6. Ул. 7 Подлесная, 100, ЖК Снегири\n7. Ул. Парковая, 20\n8. Ул. Проспект Калашникова, 25, ЖК Матрёшки, у нижней парковки\n9. Ул. Орджоникидзе, 22, ЖК Ключевой поселок\n10. Мечеть на ул. К. Маркса\n11. Мечеть на ул. Азина\n12. Ситифест - перекресток ул. Кирова и ул. К. Маркса</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамдаромИЖЕВСКСувенирыбижутериясумкиотдать">
+        <item>otdamdarom</item>
+        <item>Группа ВК «Отдам даром ИЖЕВСК»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/darizevsk</item>
+    </string-array>
+    <string-array name="СайтМарковскиефорумыветкаВыкинутьжалкоСувенирыбижутериясумкиотдать">
+        <item>markforum</item>
+        <item>Сайт «Марковские форумы», ветка «Выкинуть жалко» </item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://clck.ru/34UEx3</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="АвитоСувенирыбижутериясумкиотдать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаСувенирыбижутериясумкиотдать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамБЕСПЛАТНОДАРОМИжевскСувенирыбижутериясумкиотдать">
+        <item>otdambesplatnodarom</item>
+        <item>Группа ВК «Отдам БЕСПЛАТНО ДАРОМ Ижевск»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/besplatny_izhevsk</item>
+    </string-array>
+
+    <string-array name="АвитоСувенирыбижутериясумкипродать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаСувенирыбижутериясумкипродать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="СайтКупиПродайСувенирыбижутериясумкипродать">
+        <item>kupiprodai</item>
+        <item>Сайт «Купи-Продай»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://udm.kupiprodai.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКБарахолкаИжевскаСувенирыбижутериясумкипродать">
+        <item>baraholka</item>
+        <item>Группа ВК «Барахолка Ижевска»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/izhbaraholka18</item>
+    </string-array>
+
+    <string-array name="СВОПмаркетДавайменятьсяСувенирыбижутериясумкиобменять">
+        <item>swopmarket</item>
+        <item>СВОП маркет «Давай меняться»</item>
+        <item>Адреса:\n1. Ул. Красноармейская, 135 (выше Цирка, не доходя до ул. Ленина)\n2. Ул. Ворошилова, 53 (ТЦ "Полет", цокольный этаж)\n3. Ул. Карла Маркса, 244, ТЦ Леон, 2 этаж (вход со стороны КЦ Россия)\n4. Ул. Гор. Строителей, 48 (ост. Магазин Родина)\n5. Ул. 7-я Подлесная, 71, ЖК "Изумруд"\n6. Ул. Коммунаров, 351</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+
+    <string-array name="РегоператорУдмуртииСпецавтохозяйствоЭкотакси">
+        <item>regoperator</item>
+        <item>Регоператор Удмуртии «Спецавтохозяйство»</item>
+        <item>Выкуп и вывоз: макулатура, плёнки тепличная и стретч, ПЭТ-бутылки</item>
+        <item>+79829957834</item>
+        <item>регоператорудмуртии.рф</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="СВОПтаксиЭкотакси">
+        <item>swopmarket</item>
+        <item>СВОП такси</item>
+        <item>Обмен на свопы и вывоз: одежду, обувь, предметы быта и  интерьера, посуду, сумки, бижутерию, игрушки, книги, технику, мебель(малогабаритную)\nЦена вывоза 0-500руб</item>
+        <item>+79090523217</item>
+        <item>none</item>
+        <item>https://vk.com/swap_market</item>
+    </string-array>
+    <string-array name="ЭкотаксиКомпанияJunklЭкотакси">
+        <item>junkl</item>
+        <item>Экотакси Компания «Junkl»</item>
+        <item>Вывоз вторсырья. Цена 250-300руб</item>
+        <item>+79821214182</item>
+        <item>none</item>
+        <item>https://vk.com/junkl</item>
+    </string-array>
+
+    <string-array name="РегоператорУдмуртииСпецавтохозяйствоЭлектроникаитехникаотдать">
+        <item>regoperator</item>
+        <item>Регоператор Удмуртии «Спецавтохозяйство»</item>
+        <item>Сеть Экодомов:\nУл. Молодёжная, 107А\nУл. Холмогорова, 11\nУл. Камбарская, 110\nЭкопост + Экодом:\nУл. Короткая, 31А\n\nТехника любых габаритов, провода, платы микросхем.\n\nНе принимают: аккумуляторы, лампы накаливания, люминесцентные, светодиодные, ультрафиолетовые</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/regoperatorudmurtia</item>
+    </string-array>
+    <string-array name="ЭкосервисJunklЭлектроникаитехникаотдать">
+        <item>junkl</item>
+        <item>Экосервис «Junkl»</item>
+        <item>Адреса:\n1. Ул. Буммашевская, 4А (будни с 8 до 17)\nУл. Карла Маркса, 250 (будни с 10 до 17; по предварительной договоренности)\n\nПринимается электролом</item>
+        <item>+79821214182</item>
+        <item>none</item>
+        <item>https://vk.com/junkl</item>
+    </string-array>
+    <string-array name="МагазинДобраБлагоДарюЭлектроникаитехникаотдать">
+        <item>blagodaryu</item>
+        <item>Магазин Добра «БлагоДарю»</item>
+        <item>Адрес: г. Ижевск, ул. Мельничная, 46\nПринимают бытовую технику небольших размеров в рабочем состоянии</item>
+        <item>+79962189938</item>
+        <item>none</item>
+        <item>https://vk.com/b.daryu</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамБЕСПЛАТНОДАРОМИжевскЭлектроникаитехникаотдать">
+        <item>otdambesplatnodarom</item>
+        <item>Группа ВК «Отдам БЕСПЛАТНО ДАРОМ Ижевск»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/besplatny_izhevsk</item>
+    </string-array>
+    <string-array name="ГруппаВКОтдамдаромИЖЕВСКЭлектроникаитехникаотдать">
+        <item>otdamdarom</item>
+        <item>Группа ВК «Отдам даром ИЖЕВСК»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/darizevsk</item>
+    </string-array>
+    <string-array name="СайтМарковскиефорумыветкаВыкинутьжалкоЭлектроникаитехникаотдать">
+        <item>markforum</item>
+        <item>Сайт «Марковские форумы», ветка «Выкинуть жалко» </item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://clck.ru/34UEx3</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="АвитоЭлектроникаитехникаотдать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаЭлектроникаитехникаотдать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+
+    <string-array name="ПунктприемаэлектроникиЭлектроникаитехникапродать">
+        <item>punktprievaelectroniki</item>
+        <item>Пункт приема электроники</item>
+        <item>Адреса:\nУл. Воткинское шоссе, 58\nУл. Школьная, 55А\nУл. Клубная, 25\nТЦ «Ижевск» ул. Союзная, 75\n\nПринимают платно: компьютеры, комплектующие, оргтехнику, кабель питания, бытовую технику, платы – микросхемы питания и управления, мобильные телефоны</item>
+        <item>474674</item>
+        <item>none</item>
+        <item>https://vk.com/club74186035</item>
+    </string-array>
+    <string-array name="КомпанияТехнобуЭлектроникаитехникапродать">
+        <item>tehnobu</item>
+        <item>Компания «Техно б/у»</item>
+        <item>Скупают платно: холодильники, стиральные машины, телевизоры\nВывоз бесплатно</item>
+        <item>+79829928484</item>
+        <item>https://skupka18.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="АвитоЭлектроникаитехникапродать">
+        <item>avito</item>
+        <item>«Авито»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://www.avito.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ЮлаЭлектроникаитехникапродать">
+        <item>yula</item>
+        <item>«Юла»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://youla.ru/izhevsk</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="СайтКупиПродайЭлектроникаитехникапродать">
+        <item>kupiprodai</item>
+        <item>Сайт «Купи-Продай»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://udm.kupiprodai.ru</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="ГруппаВКБарахолкаИжевскаЭлектроникаитехникапродать">
+        <item>baraholka</item>
+        <item>Группа ВК «Барахолка Ижевска»</item>
+        <item>none</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/izhbaraholka18</item>
+    </string-array>
+    <string-array name="СетьмагазиновкомпьютернойтехникиПрофитЭлектроникаитехникапродать">
+        <item>profit</item>
+        <item>Сеть магазинов компьютерной техники «Профит»</item>
+        <item>Офис продаж 1: г.Ижевск, ул.Красноармейская, 140\nВход справа от вывески "Стрекоза" вверх по лесенкам\n8(3412)475618, 640-645, 89508247752\n\nОфис продаж 2:\nг.Ижевск, ул.Удмуртская 255В (ТЦ Флагман-Дисконт, слева от входа в "Технопоинт)\n8(3412)475613, 89501775613\n\nСкупка б/у компьютерной техники</item>
+        <item>none</item>
+        <item>none</item>
+        <item>https://vk.com/izhprofitru</item>
+    </string-array>
+    <string-array name="СкупкастиральныхмашинимикроволновыхпечейЭлектроникаитехникапродать">
+        <item>responsive_green</item>
+        <item>Скупка стиральных машин и микроволновых печей</item>
+        <item>Александр\nБесплатный вывоз</item>
+        <item>+79226924054</item>
+        <item>none</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="СервисЮпитерЭлектроникаитехникапродать">
+        <item>responsive_green</item>
+        <item>Сервис «Юпитер»</item>
+        <item>Вывоз бесплатный и скупка (с оплатой) бытовой техники: стиральные машины, микроволновые печи, телевизоры, холодильники</item>
+        <item>+79043127283</item>
+        <item>none</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="УтилизациятехникиЭлектроникаитехникапродать">
+        <item>responsive_green</item>
+        <item>Утилизация техники</item>
+        <item>Вывоз бесплатный и скупка (с оплатой): холодильники, стиральные машины, газовые и электрические плиты, морозильные камеры\nОбязательно звоните по номеру телефона и уточняйте, какую технику принимают</item>
+        <item>+79226850200</item>
+        <item>none</item>
+        <item>none</item>
+    </string-array>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

@@ -52,7 +52,7 @@ public class MainActivity2 extends AppCompatActivity {
         }
         recyclerView = findViewById(R.id.tabs);
         setPlaces();
-        PlacesRVAdapter adapter = new PlacesRVAdapter(places, this);
+        PlacesRVAdapter adapter = new PlacesRVAdapter(places, this, getIntent().getStringExtra("category_name"));
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         ImageView back = findViewById(R.id.back2);

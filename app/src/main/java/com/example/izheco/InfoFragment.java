@@ -33,7 +33,7 @@ public class InfoFragment extends Fragment {
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_SEND);
                 intent.setType("text/plain");
-                String shareBody = "Скачивайте приложение IzhEco - в нем можно найти информацию о том, где отдать/продать/обменять ненужные вещи в Ижевске!\nhttps://clck.ru/34UWKq";
+                String shareBody = "Скачивайте приложение IzhEco - в нем можно найти информацию о том, где отдать/продать/обменять ненужные вещи в Ижевске!\nhttps://clck.ru/34Ymib";
                 intent.putExtra(Intent.EXTRA_TEXT, shareBody);
                 startActivity(Intent.createChooser(intent, "Поделиться с помощью"));
             }

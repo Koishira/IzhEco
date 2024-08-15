@@ -11,8 +11,8 @@ android {
         applicationId "com.example.izheco"
         minSdk 21
         targetSdk 33
-        versionCode 3
-        versionName "1.0"
+        versionCode 6
+        versionName "1.03"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

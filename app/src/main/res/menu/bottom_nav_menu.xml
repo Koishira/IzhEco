@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
-        android:title="Категории"
-        android:icon="@drawable/options_lines"
-        android:id="@+id/category"
-        />
-<!--    <item-->
-<!--        android:title="Избранное"-->
-<!--        android:icon="@drawable/heart"-->
-<!--        android:id="@+id/favourites"/>-->
+        android:id="@+id/nav_categories"
+        android:icon="@drawable/category_selector"
+        android:title="Категории" />
+
     <item
-        android:title="О приложении"
-        android:icon="@drawable/information"
-        android:id="@+id/info"/>
+        android:id="@+id/nav_info"
+        android:icon="@drawable/info_selector"
+        android:title="О приложении" />
+
 </menu>

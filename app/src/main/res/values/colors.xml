@@ -2,11 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue">#FF2196F3</color>
     <color name="gray">#D9D9D9</color>
     <color name="almost_white">#F8F8F8</color>
-    <color name="place_white">#EAEAEA</color>
+    <color name="place_white">#EAEAEA</color> <!-- ДОБАВЬТЕ ЭТО -->
     <color name="dark_almost_white">#F2F2F2</color>
     <color name="light_green">#10812B</color>
     <color name="dark_green">#003908</color>
-    <color name="press">@color/color_selector</color>
+    <color name="press">@color/light_green</color>
 </resources>
